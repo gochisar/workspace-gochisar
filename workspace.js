@@ -70,7 +70,7 @@ cpdefine("inline:com-chilipeppr-workspace-gochisar", ["chilipeppr_ready"], funct
             
             this.loadTemplateWidget();
             
-            this.load3dWidget();
+            //this.load3dWidget();
             this.loadxyzWidget();
             
             // Create our workspace upper right corner triangle menu
