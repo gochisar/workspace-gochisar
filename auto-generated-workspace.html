@@ -162,7 +162,7 @@ cpdefine("inline:com-chilipeppr-workspace-gochisar", ["chilipeppr_ready"], funct
             
             this.loadTemplateWidget();
             
-            this.load3dWidget();
+            //this.load3dWidget();
             this.loadxyzWidget();
             
             // Create our workspace upper right corner triangle menu
@@ -267,7 +267,7 @@ cpdefine("inline:com-chilipeppr-workspace-gochisar", ["chilipeppr_ready"], funct
            var that = this;
 
             chilipeppr.load(
-              "#myDivWidget3dviewer",
+              "#com-chilipeppr-widget-3d-wiever-instance",
               "http://raw.githubusercontent.com/chilipeppr/widget-3dviewer/master/auto-generated-widget.html",
               function() {
                 // Callback after widget loaded into #myDivWidget3dviewer
@@ -382,9 +382,9 @@ cpdefine("inline:com-chilipeppr-workspace-gochisar", ["chilipeppr_ready"], funct
 <body>
 
     <div id="com-chilipeppr-widget-flash-instance"></div>
-
+    
     <div id="com-chilipeppr-workspace-gochisar" class="xhidden">
-
+        
         <div class="container-fluid">
             <div class="row">
 
@@ -441,7 +441,7 @@ cpdefine("inline:com-chilipeppr-workspace-gochisar", ["chilipeppr_ready"], funct
                 <!-- Right Column -->
                 <div class="col-md-3 col-pad10">
                     
-                    <div id="com-chilipeppr-widget-serialport-instance">
+                    <div id="com-chilipeppr-widget-3d-wiever-instance">
                         Widget 3 goes here
                     </div>
                     
@@ -476,7 +476,7 @@ cpdefine("inline:com-chilipeppr-workspace-gochisar", ["chilipeppr_ready"], funct
             </p>
         </div>
     </div>
-    <div id="myDivWidget3dviewer"></div>
+    
 </body>
 
 </html>
