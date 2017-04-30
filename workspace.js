@@ -60,7 +60,7 @@ cpdefine("inline:com-chilipeppr-workspace-gochisar", ["chilipeppr_ready"], funct
          * and inits them.
          */
         init: function() {
-
+            this.load3dWidget();
             // Most workspaces will instantiate the Serial Port JSON Server widget
             this.loadSpjsWidget();
             // Most workspaces will instantiate the Serial Port Console widget
@@ -70,7 +70,7 @@ cpdefine("inline:com-chilipeppr-workspace-gochisar", ["chilipeppr_ready"], funct
             
             this.loadTemplateWidget();
             
-            //this.load3dWidget();
+            
             this.loadxyzWidget();
             
             // Create our workspace upper right corner triangle menu
