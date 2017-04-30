@@ -175,16 +175,16 @@ cpdefine("inline:com-chilipeppr-workspace-gochisar", ["chilipeppr_ready"], funct
            var that = this;
 
             chilipeppr.load(
-              "#myDivWidget3dviewer",
+              "#myDiv3dviewer",
               "http://raw.githubusercontent.com/chilipeppr/widget-3dviewer/master/auto-generated-widget.html",
               function() {
                 // Callback after widget loaded into #myDivWidget3dviewer
                 // Now use require.js to get reference to instantiated widget
                 cprequire(
                   ["inline:com-chilipeppr-widget-3dviewer"], // the id you gave your widget
-                  function(myObjWidget3dviewer) {
+                  function(myDiv3dviewer) {
                     // Callback that is passed reference to the newly loaded widget
-                    console.log("Widget / 3D GCode Viewer just got loaded.", myObjWidget3dviewer);
+                    console.log("Widget / 3D GCode Viewer just got loaded.", myDiv3dviewer);
                     myObjWidget3dviewer.init();
                   }
                 );
