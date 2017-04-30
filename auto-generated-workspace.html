@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
-    <title>Workspace / antbarney</title>
+    <title>Workspace / gochisar</title>
 
     <!-- ChiliPeppr is based on bootstrap CSS. -->
     <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
@@ -237,7 +237,7 @@ body.hover {
     //<![CDATA[
 
 /* global cpdefine chilipeppr cprequire */
-cprequire_test(["inline:com-chilipeppr-workspace-antbarney"], function(ws) {
+cprequire_test(["inline:com-chilipeppr-workspace-gochisar"], function(ws) {
 
     console.log("initting workspace");
 
@@ -265,19 +265,19 @@ cprequire_test(["inline:com-chilipeppr-workspace-antbarney"], function(ws) {
     ws.init();
     
     // Do some niceties for testing like margins on widget and title for browser
-    $('title').html("antbarney Workspace");
+    $('title').html("gochisar Workspace");
     $('body').css('padding', '10px');
 
 } /*end_test*/ );
 
 // This is the main definition of your widget. Give it a unique name.
-cpdefine("inline:com-chilipeppr-workspace-antbarney", ["chilipeppr_ready"], function() {
+cpdefine("inline:com-chilipeppr-workspace-gochisar", ["chilipeppr_ready"], function() {
     return {
         /**
          * The ID of the widget. You must define this and make it unique.
          */
-        id: "com-chilipeppr-workspace-antbarney", // Make the id the same as the cpdefine id
-        name: "Workspace / antbarney", // The descriptive name of your widget.
+        id: "com-chilipeppr-workspace-gochisar", // Make the id the same as the cpdefine id
+        name: "Workspace / gochisar", // The descriptive name of your widget.
         desc: `A ChiliPeppr Workspace for me.`,
         url: "http://raw.githubusercontent.com/gochisar/workspace-gochisar/master/auto-generated-workspace.html", // The final URL of the working widget as a single HTML file with CSS and Javascript inlined. You can let runme.js auto fill this if you are using Cloud9.
         fiddleurl: "http://ide.c9.io/gochisar/chilipeppr_tema", // The edit URL. This can be auto-filled by runme.js in Cloud9 if you'd like, or just define it on your own to help people know where they can edit/fork your widget
@@ -1130,7 +1130,7 @@ cpdefine("inline:com-chilipeppr-workspace-antbarney", ["chilipeppr_ready"], func
 <body>
 <!-- This is the workspace layout for the Gcode Workspace -->
 <div id="test-com-chilipeppr-flash"></div>
-<div id="com-chilipeppr-workspace-antbarney" class="xhidden">
+<div id="com-chilipeppr-workspace-gochisar" class="xhidden">
 <div id="com-chilipeppr-ws-gcode-wrapper" class="dropArea">
     <div id="com-chilipeppr-ws-gcode-dragdropoverlay" class="hidden">
         <div class="well">Drag and Drop Gcode Files Onto Browser Window</div>
@@ -1145,7 +1145,7 @@ cpdefine("inline:com-chilipeppr-workspace-antbarney", ["chilipeppr_ready"], func
                 
                 <!-- Workspace Hdr -->
                 <div id="com-chilipeppr-ws-gcode-hdr" class="com-chilipeppr-ws-hdr zhigh well">
-                                Workspace - Antbarney (Forked from TinyG)
+                                Workspace - gochisar (Forked from TinyG)
                 <div id="com-chilipeppr-ws-gcode-menu">
                         <div class="com-chilipeppr-ws-menu pull-right">
                             <div class="btn-group">
@@ -1244,11 +1244,11 @@ cpdefine("inline:com-chilipeppr-workspace-antbarney", ["chilipeppr_ready"], func
 
 </div>
 <!-- Keep this div hidden so it can be cloned and used by the Javascript -->
-<div id="com-chilipeppr-workspace-antbarney-billboard" class="hidden">
+<div id="com-chilipeppr-workspace-gochisar-billboard" class="hidden">
     <div class="billboard-content">
-        <h4 class="billboard-title" style="">Antbarney's Workspace</h4>
+        <h4 class="billboard-title" style="">gochisar's Workspace</h4>
 
-            <p class="billboard-url" style=""><a href="http://chilipeppr.com/antbarney">chilipeppr.com/sample</a>
+            <p class="billboard-url" style=""><a href="http://chilipeppr.com/gochisar">chilipeppr.com/sample</a>
 
             </p>
         <div class="billboard-imgcontain" style="">
